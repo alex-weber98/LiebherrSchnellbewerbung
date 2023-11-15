@@ -1,0 +1,85 @@
+<html lang="de">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Schnellbewerbung</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+
+  </head>
+  <body>
+    <!-- <div id="div-left">
+        <img src="Liebherr-Logo.png" alt="Liebherr-Logo">
+    </div> -->
+
+    <div id="div-center">
+        <h1>Schnellbewerbung</h1>
+        <div>
+            <h2>Bewerbung als/im Bereich</h2>
+    
+            <div id="bereich">
+    
+            </div>
+        </div>
+    
+        <div>
+            <h2>Wie viel Jahre Berufserfahrung bringen Sie in der gewünschten Position/Bereich mit?</h2>
+    
+            <div>           
+                <input type="radio" id="be_0" name="Berufserfahrung" value="Keine Erfahrung">
+                <label for="be_0">Keine Erfahrung</label><br>
+                <input type="radio" id="be_1" name="Berufserfahrung" value="Ein bis zwei Jahre Erfahrung">
+                <label for="be_1">Ein bis zwei Jahre Erfahrung</label><br>
+                <input type="radio" id="be_2" name="Berufserfahrung" value="Mehr als zwei Jahre Erfahrung">
+                <label for="be_2">Mehr als zwei Jahre Erfahrung</label>
+            </div>
+        </div>
+    
+        <div>
+            <h2>Über welche abgeschlossene Ausbildung verfügen Sie?</h2>
+            <input class="bigTextbox" type="text" id="AusbildungAbgeschlossen">
+    
+            <h2>In welcher Ausbildung befinden Sie sich aktuell?<small>Nur auszufüllen, sofern Sie sich noch in Ausbildung befinden.</small></h2>
+            <input class="bigTextbox" type="text" id="AusbildungAktuell">
+        </div>
+        <div class="parent">
+
+            <div class="element">
+                <h2>Vorname</h2>
+                <input class="bigTextbox" type="text" id="Vorname">
+            </div>
+            
+            <div class="element">
+                <h2>Nachname</h2>
+                <input class="bigTextbox" type="text" id="Nachname">
+            </div>
+            
+            <div class="element">
+                <h2>Telefonnummer</h2>
+                <input class="bigTextbox" type="text" id="Telefonnummer">
+            </div>
+
+            <div class="element">
+                <h2>E-Mail Adresse</h2>
+                <input class="bigTextbox" type="text" id="E-Mail">
+            </div>
+
+        </div>
+    
+        <div>
+            <h2>Link zum LinkedIn-Profil</h2>
+            <p style="display: inline-block;">www.linkedin.com/in/</p><input type="text" id="LinkedIn">
+    
+        </div>
+
+        <button onclick="submit()">
+            Senden
+        </button>
+
+    </div>
+    
+
+    <script script type="text/javascript" src="main.js"></script>
+  </body>
+
+</html>

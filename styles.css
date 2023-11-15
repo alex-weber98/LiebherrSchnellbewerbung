@@ -1,0 +1,106 @@
+*{
+    font-family: sans-serif;
+}
+
+
+body{
+    padding: 0px;
+    margin: 0px;
+    /* background-color: #fedc00; */
+} 
+
+h1{
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: #fedc00;;
+}
+
+h1, h2{
+
+}
+
+
+label, p{
+    font-size: 1.4em;
+}
+
+input:not([type]), input[type="text"]
+{
+    font-size: 1.4em;
+}
+
+#div-center{
+    width: 50%;
+    margin: auto;
+    padding: 40px 10%;
+    background-color: white;
+}
+
+#div-center > div{
+    margin: 50px 0px
+}
+
+#div-left{
+    width: 15%;
+    height: 100%;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    position: fixed;
+}
+
+small{
+    font-size: 50%;
+    margin-left: 0.5em;
+}
+
+.bigTextbox{
+    width: 100%;
+}
+
+button{
+    font-size: 2em;
+    margin: auto;
+    display: block;
+}
+
+
+
+.parent{
+    column-gap: 2rem;
+    column-count: 2;
+}
+.element{
+  display:inline-block;
+
+  width:100%;
+  height:100px;
+}
+
+
+
+
+.rotate90 {
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
+.rotate270 {
+    -webkit-transform: rotate(270deg);
+    -moz-transform: rotate(270deg);
+    -o-transform: rotate(270deg);
+    -ms-transform: rotate(270deg);
+    transform: rotate(270deg);
+}
+
+img {
+    width: 80%;
+    height: 40%; 
+    object-fit: contain;
+    
+}
