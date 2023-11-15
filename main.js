@@ -122,7 +122,7 @@ LinkedIn: ${document.getElementById("LinkedIn").value}
  
     save(`${document.getElementById("Vorname").value}_${document.getElementById("Nachname").value}.txt`, body);
 
-    delay(1000).then(() => location.reload());
+    // delay(1000).then(() => location.reload());
 
 
 }
