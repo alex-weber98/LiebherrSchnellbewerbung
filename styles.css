@@ -1,13 +1,20 @@
 @font-face {
     font-family: LiebherrRegular;
     src: url(fonts/LiebherrText-Regular_Web.woff);
-  }
+}
+
+@font-face {
+    font-family: LiebherrHead;
+    src: url(fonts/LiebherrHead-Black_Web.woff);
+}
+
 
 
 *{
     font-family: LiebherrRegular;
-
 }
+
+
 
 
 body{
@@ -21,7 +28,8 @@ body{
 h1{
     text-align: center;
     text-decoration: underline;
-    text-decoration-color: #fedc00;;
+    text-decoration-color: #fedc00;
+    font-family: LiebherrHead;
 }
 
 
@@ -36,14 +44,14 @@ input:not([type]), input[type="text"]
 }
 
 #div-center{
-    width: 50%;
+    width: 60%;
     margin: auto;
     padding: 40px 10%;
 
 }
 
 #div-center > div{
-    margin: 50px 0px
+    /* margin: 50px 0px */
 }
 
 #div-left{
@@ -64,6 +72,7 @@ small{
 
 .bigTextbox{
     width: 100%;
+    margin-left: 10px;
 }
 
 button{
@@ -85,6 +94,15 @@ button{
   height:100px;
 }
 
+#btnBewerben{
+    background-color: #fedc00;
+    font-family: LiebherrHead;
+    font-size: 26px;
+    border: 0;
+    padding: 20px;
+    margin-top: 10px;
+    
+}
 
 
 
