@@ -30,6 +30,7 @@ body{
     margin: 0px;
     /* background-color: #fedc00;  */
     background-color: #f0f3f6;
+    width: 100%;
 
 } 
 
@@ -57,26 +58,15 @@ input:not([type]), input[type="text"]
 }
 
 #div-center{
-    width: 60%;
+    width: 70%;
+    min-width: 1000px;
     margin: auto;
-    padding: 40px 10%;
-
 }
 
 #div-center > div{
     /* margin: 50px 0px */
 }
 
-#div-left{
-    width: 15%;
-    height: 100%;
-    float: left;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    overflow: hidden;
-    position: fixed;
-}
 
 small{
     font-size: 70%;

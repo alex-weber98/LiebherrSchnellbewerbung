@@ -14,7 +14,7 @@ function createCheckbox(parentElement, cbxName){
 
 
 const cbxBereich = ["Administration",
-"Buchhaltung / Finanzen /Controlling",
+"Buchhaltung / Finanzen / Controlling",
 "Einkauf",
 "Forschung / Entwicklung",
 "Gastronomie / Service",
