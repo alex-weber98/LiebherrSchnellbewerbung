@@ -1,8 +1,10 @@
 
 function createCheckbox(parentElement, cbxName){
     element.innerHTML += `
+    <div>
     <input type="checkbox" id="cbx_${cbxName}" name="${cbxName}" value="${cbxName}">
     <label for="cbx_${cbxName}">${cbxName}</label><br>
+    </div>
     `;    
 }
 
@@ -82,13 +84,9 @@ function submit(){
     console.log("i was clicked")
 
     // ----------- Bewerbung für ------------------
-    var element = document.getElementById("bewerbungfür");
-
-    var children = element.children;
-
-    for(let i = 0; i < children.length; i++)
+    for(let i = 0; i < cbxBewerbungfür.length; i++)
     {
-        let item = children[i];
+        let item = document.getElementById(`cbx_${cbxBewerbungfür[i]}`);
         if(item.type == "checkbox" && item.checked)
         {
             console.log(item.value);
@@ -96,20 +94,19 @@ function submit(){
         }
     }
 
+
+
     // ----------- Bereiche ------------------
-    var element = document.getElementById("bereich");
-
-    var children = element.children;
-
-    for(let i = 0; i < children.length; i++)
+    for(let i = 0; i < cbxBereich.length; i++)
     {
-        let item = children[i];
+        let item = document.getElementById(`cbx_${cbxBereich[i]}`);
         if(item.type == "checkbox" && item.checked)
         {
             console.log(item.value);
             bereiche.push(item.value);
         }
     }
+
 
     // ----------- Berufserfahrung
     let be_ids = ["be_0", "be_1", "be_2"]
@@ -123,21 +120,16 @@ function submit(){
             break;
         }
     }
-
-
     console.log(bereiche);
 
     var bereicheLi = "";
-
     for(let i = 0; i < bereiche.length; i++)
     {
         bereicheLi += `- ${bereiche[i]}\r\n`;
     }
-
     console.log(bereicheLi);
 
     var beewerbungFürLi = "";
-
     for(let i = 0; i < bewerbungfür.length; i++)
     {
         beewerbungFürLi += `- ${bewerbungfür[i]}\r\n`;
