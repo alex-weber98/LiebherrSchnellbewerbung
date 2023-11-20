@@ -14,7 +14,9 @@
     font-family: LiebherrRegular;
 }
 
-
+#bewerbungfür{
+    display: inline-block;
+}
 
 
 body{
@@ -32,6 +34,10 @@ h1{
     font-family: LiebherrHead;
 }
 
+h2{
+    margin-bottom: 5px;
+    font-size: 24px;
+}
 
 
 label, p{
@@ -66,13 +72,18 @@ input:not([type]), input[type="text"]
 }
 
 small{
-    font-size: 50%;
+    font-size: 70%;
     margin-left: 0.5em;
 }
 
 .bigTextbox{
     width: 100%;
     margin-left: 10px;
+}
+
+input[type="text"]
+{
+    font-size:30px;
 }
 
 button{
@@ -96,12 +107,12 @@ button{
 
 #btnBewerben{
     background-color: #fedc00;
-    font-family: LiebherrHead;
+    /* font-family: LiebherrHead; */
     font-size: 26px;
     border: 0;
     padding: 20px;
-    margin-top: 10px;
-    
+    margin-top: 30px;
+    font-weight: bold;
 }
 
 
