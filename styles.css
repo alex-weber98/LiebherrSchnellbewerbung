@@ -1,12 +1,21 @@
+@font-face {
+    font-family: LiebherrRegular;
+    src: url(fonts/LiebherrText-Regular_Web.woff);
+  }
+
+
 *{
-    font-family: sans-serif;
+    font-family: LiebherrRegular;
+
 }
 
 
 body{
     padding: 0px;
     margin: 0px;
-    /* background-color: #fedc00; */
+    /* background-color: #fedc00;  */
+    background-color: #f0f3f6;
+
 } 
 
 h1{
@@ -30,7 +39,7 @@ input:not([type]), input[type="text"]
     width: 50%;
     margin: auto;
     padding: 40px 10%;
-    background-color: white;
+
 }
 
 #div-center > div{
