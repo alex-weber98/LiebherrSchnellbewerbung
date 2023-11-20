@@ -19,6 +19,11 @@
     margin-right: 40px;
 }
 
+#bereich div{
+    display: inline-block;
+    width: 45%;  
+}
+
 
 body{
     padding: 0px;
