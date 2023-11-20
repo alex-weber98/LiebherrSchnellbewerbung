@@ -45,7 +45,7 @@ for(let i = 0; i < cbxBereich.length; i++)
 
 var element = document.getElementById("bewerbungfür");
 for(let i = 0; i< cbxBewerbungfür.length; i++){
-    let item = cbxBereich[i];
+    let item = cbxBewerbungfür[i];
     createCheckbox(element, item);
 }
 
