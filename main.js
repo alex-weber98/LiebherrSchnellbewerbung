@@ -9,10 +9,6 @@ function createCheckbox(parentElement, cbxName){
 }
 
 
-// // font size of textboxes
-// $(".bigTextbox").css('fontSize', '40px');
-
-
 const cbxBereich = ["Administration",
 "Buchhaltung / Finanzen / Controlling",
 "Einkauf",

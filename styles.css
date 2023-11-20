@@ -24,20 +24,23 @@
     width: 45%;  
 }
 
+header{
+    margin: 0px
+}
 
 body{
     padding: 0px;
-    margin: 0px;
+    /* margin: 50px 0px; */
     /* background-color: #fedc00;  */
-    background-color: #f0f3f6;
+    background-color: white;
     width: 100%;
 
 } 
 
 h1{
-    text-align: center;
-    text-decoration: underline;
-    text-decoration-color: #fedc00;
+    text-align: left;
+    /* text-decoration: underline;
+    text-decoration-color: #fedc00; */
     font-family: LiebherrHead;
     font-size: 40px;
 }
@@ -52,25 +55,33 @@ label, p{
     font-size: 1.4em;
 }
 
-input:not([type]), input[type="text"]
+/* input:not([type]), input[type="text"]
 {
     font-size: 1.4em;
-}
+} */
 
 #div-center{
     width: 70%;
-    min-width: 1000px;
+    min-width: 1100px;
     margin: auto;
+    padding: 50px;
+
 }
 
-#div-center > div{
-    /* margin: 50px 0px */
+#div-formular{
+    background-color: #f0f3f6;
+    padding: 50px;
+}
+
+#div-formular > div{
+    margin-bottom: 30px;
 }
 
 
 small{
     font-size: 70%;
     margin-left: 0.5em;
+    font-weight: 200;
 }
 
 .bigTextbox{
@@ -80,10 +91,14 @@ small{
 
 input[type="text"]
 {
-    font-size:36px;
+    font-size:32px;
 }
 
 button{
+    /* Resetting default button styles */
+    -webkit-appearance: none;
+    appearance: none;
+
     font-size: 2em;
     margin: auto;
     display: block;
