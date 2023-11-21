@@ -8,6 +8,12 @@
     src: url(fonts/LiebherrHead-Black_Web.woff);
 }
 
+@font-face {
+    font-family: LiebherrHeadOfficeBold;
+    src: url(fonts/LiebherrTextOffice-Bold.ttf);
+}
+
+
 
 
 *{
@@ -25,7 +31,7 @@
 }
 
 header{
-    margin: 0px
+    margin: 50px 0px
 }
 
 body{
@@ -42,7 +48,18 @@ h1{
     /* text-decoration: underline;
     text-decoration-color: #fedc00; */
     font-family: LiebherrHead;
-    font-size: 40px;
+    font-size: 3em;
+    /* text-decoration: underline; */
+    /* text-underline-offset: 0.5em; */
+    /* text-decoration-thickness: 1em; */
+}
+
+.LiebherrUnderline{
+    font-family: LiebherrHead;
+    font-size: 1em;
+    padding-bottom: 0.3em;
+    border-bottom: solid;
+    border-bottom-width: 6px;
 }
 
 h2{
