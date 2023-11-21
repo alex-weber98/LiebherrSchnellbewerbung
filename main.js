@@ -1,6 +1,6 @@
 
 function createCheckbox(parentElement, cbxName){
-    element.innerHTML += `
+    parentElement.innerHTML += `
     <div>
     <input type="checkbox" id="cbx_${cbxName}" name="${cbxName}" value="${cbxName}">
     <label for="cbx_${cbxName}">${cbxName}</label><br>
