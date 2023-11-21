@@ -69,7 +69,8 @@ h2{
 
 
 label, p{
-    font-size: 1.4em;
+    margin-bottom: 5px;
+    font-size: 24px;
 }
 
 /* input:not([type]), input[type="text"]
